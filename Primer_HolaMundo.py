@@ -1,5 +1,10 @@
 # Introduccion a Python
 
+"""
+    - Es un lenguaje multiparadigma
+    - Es multiplataforma
+"""
+
 # Elementos básicos
 
 print('Hola Mundo')
