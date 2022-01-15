@@ -1,4 +1,4 @@
-""" Óperadore Relacionales
+""" Óperadores Relacionales
         - Se utilizan para establecer una relacion entre 2 valores
         - Compara estos valores entre si y esta comparacion produce un resultado de certeza o falsedad (verdadero o falso)
         - Tienen el mismo nivel de prioridad en su evaluacion
