@@ -57,5 +57,5 @@ red2 = round(5.4)
 print(red, red2)
 print(type(red), type(red2))
 
-nombre = len("Eliab Hdez") # Los espacios cuentan como caracteresfe
+nombre = len("Eliab Hdez") # Los espacios cuentan como caracteres
 print(nombre)
