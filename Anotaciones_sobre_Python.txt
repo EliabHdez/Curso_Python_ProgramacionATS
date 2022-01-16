@@ -1,0 +1,5 @@
+Anotaciones importantes sobre Python
+
+Antes de llegar al tema de Funciones Integradas, habia estado llamando metodos al int(), float(), str() y a unos cuantos mas. Sin embargo en Python NO se les conoce como metodos, si no como funciones integradas.
+
+Una Funcion Integrada es aquella que nos permite cambiar de tipo de dato
