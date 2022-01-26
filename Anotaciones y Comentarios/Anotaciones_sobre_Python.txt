@@ -3,3 +3,33 @@ Anotaciones importantes sobre Python
 Antes de llegar al tema de Funciones Integradas, habia estado llamando metodos al int(), float(), str() y a unos cuantos mas. Sin embargo en Python NO se les conoce como metodos, si no como funciones integradas.
 
 Una Funcion Integrada es aquella que nos permite cambiar de tipo de dato
+
+Sobre las Tuplas
+
+- Permiten extraer porciones, pero el resultado de la extracción es una tupla nueva
+
+Utilidad o ventaja respecto a las listas
+
+- Mas rápidas
+- Menos espacio (mayor optimización)
+- Formatean Strings
+- Pueden utilizarse como claves en un diccionario. (las listas no)
+
+Pueden existir tuplas que se conocen como tupla unitaria, que es una tupla con un solo elemento, sin embargo para que esta sea una tupla unitaria despues del valor agregado a la tupla se le añade la coma (mitupla = ('Moises',)), de lo contrario no seria una tupla unitaria
+
+En las tuplas podemos omitir los parentesis, es decir crear la tupla de forma directa sin estos miTupla = 'Moises', 25, 09, 1990 sin embargo esto no es lo mas recomendable, ya que a futuro se puede prestar para confusiones, sin embargo se puede y a esto se le conoce como empaquetado de tuplas
+
+Tambien tenemos el desempaquetado de tuplas y esto es basicamente poder almacenar los valores o elementos de una tupla en diferentes variables y esto se hace de la siguiente manera: creando varias variables en una sola linea separadas por coma e igualando estas variables a la tupla, con esto Python va a saber que cada elemento de la tupla lo tiene que asignar a cada variable declarada en el orden como van de izquierda a derecha
+
+miTupla = ('Eliab', 'Hernandez', 25, 09, 90)
+nombre, apellido, dia, mes, year = miTupla
+
+Con esto ultimo estamos asignando cada elemento de la tupla a la variable que le corresponde de acuerdo al orden de izq a derecha, a esto se le conoce como desempaquetado de tuplas
+
+Sobre los diccionarios
+
+- Admiten tuplas como el clave
+
+miTupla = ('Mexico', 'Estados Unidos', 'Canada', 'Alemania', 'Irlanda')
+diccionario = {miTupla[0]:'CDMX', miTupla[1]:'Washington', miTupla[2]:'Toronto', miTupla[3]:'Berlín', miTupla[4]:'Dublin'}
+
