@@ -40,6 +40,51 @@ print('***Bucle 3***')
 
 i = 1
 
-while i == 5: # Le tenemos que especificar <= ya que aunque queremos que en cuanto llegue al 5 se detenga, si solo igualamos a 5 (i == 5), este bucle no se ejecutaria, debido a que como empezamos con el valor de 1, la variable i nunca valdria 5, debido a que como solo hay aumento de la variable si vale 5 y no puede llegar a este 5 sin tener aumento pues jamas entraria al bucle
+while i <= 5: # Le tenemos que especificar <= ya que aunque queremos que en cuanto llegue al 5 se detenga, si solo igualamos a 5 (i == 5), este bucle no se ejecutaria, debido a que como empezamos con el valor de 1, la variable i nunca valdria 5, debido a que como solo hay aumento de la variable si vale 5 y no puede llegar a este 5 sin tener aumento pues jamas entraria al bucle
     print(i)
-    i += 1 
+    i += 1
+    
+# Informacion adicional del Bucle While - Pildoras Informaticas
+
+# Como podemos hacer que el Bucle While en ciertos casos no sea un bucle infinito? Ej si tenemos un programa donde nos pida la edad del usuario y este lo limitamos con un bucle while para que la edad este entre 5 y 100 y el usuario se empeña en meter un dato menor a 5 o mayor a 100 el bucle se repetiria de forma infinita ya que el usuario no pasaria nunca un valor entre 5 y 100. Hay una manera de que este bucle pare en cierto punto y es mediante el break. El break lo que hace es decirle al bucle que se rompa y se salga de este. Veamos esto con un ejemplo practico para entenderlo
+
+# edad = int(input('Introduce tu edad: '))
+# intentos = 0
+
+# while edad < 5 or edad > 100:
+#     print('Edad incorrecta. Favor de ingresar tu edad real')
+#     if intentos == 2:
+#         print('Haz ingresado mal tu edad demasiadas veces')
+#         break
+#     edad = int(input('Introduce tu edad: '))
+#     if edad < 5 or edad > 100:
+#         intentos += 1
+# if intentos < 2:
+#     print('Edad correcta')
+#     print(f'Tu edad es: {edad}')
+
+# print('Fin del programa')
+
+# Ejercicio realizado por el profe Juan de Pildoras Informaticas en el video del curso
+
+print('Programa de calculo de raiz cuadrada')
+
+numero = int(input('Introduce un numero: '))
+intentos = 0
+
+while numero < 0:
+    print('No se puede calcular la raiz cuadrada de un numero negativo')
+    
+    if intentos == 2:
+        print('Haz consumido demasiados intentos')
+        break
+    
+    numero = int(input('Introduce un numero positivo: '))
+    if numero < 0:
+        intentos += 1
+        
+if intentos < 2:
+    solucion = math.sqrt(numero)
+    print(f'La raiz cuadrada de {numero} es: {solucion}')
+    
+print('Fin del programa')
