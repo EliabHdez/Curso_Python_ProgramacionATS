@@ -60,3 +60,25 @@ for i in persona:
 
 for i in persona:
     print(i, end='.') # Con el end= cambiamos este comportamiento cada vez que el print se ejecuta a cada vuelta del ciclo y podemos ponerle como parametro un espacio, un punto, un guion etc
+    
+# Bucle for in range - Pildoras Informaticas
+
+# El bucle for in range es un bucle que nos permite indicar el numero de veces que se repetira o ejecutara el codigo que tenga el cuerpo del bucle. Este almacena en su variable iteradora el indice de cada vuelta que da
+
+for i in range(5):
+    print('Hola Mundo')
+    
+for i in range(10):
+    print(i)
+    
+# El bucle for in range nos permite como su nombre lo indica marcar un rango, tanto apartir de que numero empezar como hasta que numero terminar, y ademas admite un tercer parametro el cual va a indicar de cuanto en cuanto tiene que aumentar este conteo en cada vuelta
+
+print('***comienza en y termina en***')
+
+for i in range(5,10):
+    print(f'El valor de la variables es: {i}')
+    
+print('***comienza en, termina en, contando cada cuanto***')
+    
+for i in range(5,20,3):
+    print(f'El valor de la variables es: {i}')
