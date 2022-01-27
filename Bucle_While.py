@@ -48,43 +48,44 @@ while i <= 5: # Le tenemos que especificar <= ya que aunque queremos que en cuan
 
 # Como podemos hacer que el Bucle While en ciertos casos no sea un bucle infinito? Ej si tenemos un programa donde nos pida la edad del usuario y este lo limitamos con un bucle while para que la edad este entre 5 y 100 y el usuario se empeña en meter un dato menor a 5 o mayor a 100 el bucle se repetiria de forma infinita ya que el usuario no pasaria nunca un valor entre 5 y 100. Hay una manera de que este bucle pare en cierto punto y es mediante el break. El break lo que hace es decirle al bucle que se rompa y se salga de este. Veamos esto con un ejemplo practico para entenderlo
 
-# edad = int(input('Introduce tu edad: '))
-# intentos = 0
+print('Programa validación edad del usuario')
 
-# while edad < 5 or edad > 100:
-#     print('Edad incorrecta. Favor de ingresar tu edad real')
-#     if intentos == 2:
-#         print('Haz ingresado mal tu edad demasiadas veces')
-#         break
-#     edad = int(input('Introduce tu edad: '))
-#     if edad < 5 or edad > 100:
-#         intentos += 1
-# if intentos < 2:
-#     print('Edad correcta')
-#     print(f'Tu edad es: {edad}')
+edad = int(input('Introduce tu edad: '))
+intentos = 0
 
-# print('Fin del programa')
+while edad < 5 or edad > 100:
+    error = 'Edad incorrecta. Vuelve a intentarlo'
+    print(error)
+    intentos += 1
+    edad = int(input('Introduce tu edad: '))
+    if intentos == 5:
+        print('Edad inválida. Haz alcanzado el límite de intentos')
+        break
+if intentos < 5:
+    print('Edad válida')
+
+print('Fin del programa')
 
 # Ejercicio realizado por el profe Juan de Pildoras Informaticas en el video del curso
 
-print('Programa de calculo de raiz cuadrada')
+# print('Programa de calculo de raiz cuadrada')
 
-numero = int(input('Introduce un numero: '))
-intentos = 0
+# numero = int(input('Introduce un numero: '))
+# intentos = 0
 
-while numero < 0:
-    print('No se puede calcular la raiz cuadrada de un numero negativo')
+# while numero < 0:
+#     print('No se puede calcular la raiz cuadrada de un numero negativo')
     
-    if intentos == 2:
-        print('Haz consumido demasiados intentos')
-        break
+#     if intentos == 2:
+#         print('Haz consumido demasiados intentos')
+#         break
     
-    numero = int(input('Introduce un numero positivo: '))
-    if numero < 0:
-        intentos += 1
+#     numero = int(input('Introduce un numero positivo: '))
+#     if numero < 0:
+#         intentos += 1
         
-if intentos < 2:
-    solucion = math.sqrt(numero)
-    print(f'La raiz cuadrada de {numero} es: {solucion}')
+# if intentos < 2:
+#     solucion = math.sqrt(numero)
+#     print(f'La raiz cuadrada de {numero} es: {solucion}')
     
-print('Fin del programa')
+# print('Fin del programa')
