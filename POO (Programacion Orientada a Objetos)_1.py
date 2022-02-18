@@ -1,4 +1,4 @@
-# POO - Programacion Orientada a Objetos - Pildoras Informaticas
+# POO - Programacion Orientada a Objetos - Pildoras Informaticas / Videos 24,25 y 26 del Curso
 
 """ En que consiste???
         Trasladar la naturaleza de los objetos de la vida real al codigo de programacion
