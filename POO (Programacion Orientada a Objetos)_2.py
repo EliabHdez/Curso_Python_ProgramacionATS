@@ -1,6 +1,6 @@
 # POO - Programacion Orientada a Objetos 2da Parte - Pildoras Informaticas / Video 27 del Curso
 
-# En esta segunda parte veremos la encapsulación y el constructor
+# En esta 2da parte veremos la encapsulación de variables y el constructor
 
 class Coche():
     largoChasis = 250
@@ -91,7 +91,7 @@ coche4.propiedades()
 print('---------Estado Inicial y Constructor--------')
         
 class Coche2():
-    def __init__(self):
+    def __init__(self): # Encapsulación de variables
         self.largoChasis = 250
         self.anchoChasis = 120
         self.numRuedas = 4
