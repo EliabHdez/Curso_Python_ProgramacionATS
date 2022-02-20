@@ -56,6 +56,8 @@ moto1.propiedadesEstado()
 
 print('-----Van-----')
 
+# Cuando creamos metodos, al momento de crear variables dentro de estas, quererlas modificar, darles 'x' valor, utilizarlas en un if etc etc etc hay que tener cuidados y utilizar el nombre de las variables, NO el nombre del metodo, tambien no se nos debe olvidar hacer uso del self anteponiendolo al nombre de las variables
+
 class Camioneta(Vehiculos):
     def carga(self, cargada):
         self.cargar = cargada
