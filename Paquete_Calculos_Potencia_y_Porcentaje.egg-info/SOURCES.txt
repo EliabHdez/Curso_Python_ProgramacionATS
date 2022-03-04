@@ -1,0 +1,10 @@
+README.md
+setup.py
+Paquete_Calculos_Potencia_y_Porcentaje.egg-info/PKG-INFO
+Paquete_Calculos_Potencia_y_Porcentaje.egg-info/SOURCES.txt
+Paquete_Calculos_Potencia_y_Porcentaje.egg-info/dependency_links.txt
+Paquete_Calculos_Potencia_y_Porcentaje.egg-info/top_level.txt
+calculos/__init__.py
+calculos/calculos_generales.py
+calculos/potencia_porcentaje/__init__.py
+calculos/potencia_porcentaje/potencia_porcentaje.py
