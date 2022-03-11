@@ -1,7 +1,6 @@
 # Interfaces Graficas - GUI 1ra y 2da Parte - Pildoras Informaticas / Videos 42 y 43
 
 from tkinter import *
-from turtle import width
 
 # El metodo mainloop tiene que estar siempre al final
 
@@ -11,7 +10,7 @@ raiz.title('Ventana de pruebas') # Ponemos titulo a la ventana
 
 # raiz.resizable(True,1) # Nos permite decidir si queremos que la ventana se pueda redimensionar. Este metodo acepta valores booleanos, ya sea que pongamos 1 o 0 o bien True o False. El 1 equivale a True y 0 a False. El primer valor corresponde a width (ancho) y el segundo a height (alto)
 
-raiz.iconbitmap("Graphical User Interfaces/kali.ico") # Asignar un icono a la ventana. Este icono debe estar en formato .ico
+raiz.iconbitmap("Graphical User Interfaces/icono.ico") # Asignar un icono a la ventana. Este icono debe estar en formato .ico
 
 raiz.geometry('650x350') # Damos una medida a la ventana
 
