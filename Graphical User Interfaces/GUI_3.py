@@ -18,7 +18,7 @@
 
 # Sticky nos permite ubicar el contenido en cualquier punto dentro de los puntos cardinales de una brujula, norte, sur, este, oeste y tambien noreste, sureste, noroeste y suroeste, estos estan definidos en ingles y para definirlos solo ocupamos las iniciales... n, s, e, w, ne, se, nw y sw 
 
-# pady y pax nos permiten definir paddings como en css para darle un espaciado entre el contenido que tiene definido el padding de su contenedor padre (raiz, frame etc...). Con pady controlamos el padding de superior e inferior y con el padx controlamos el padding de la derecha e izquierda
+# pady y padx nos permiten definir paddings como en css para darle un espaciado entre el contenido que tiene definido el padding de su contenedor padre (raiz, frame etc...). Con pady controlamos el padding de superior e inferior y con el padx controlamos el padding de la derecha e izquierda
 
 from tkinter import *
 
