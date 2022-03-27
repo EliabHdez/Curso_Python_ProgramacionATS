@@ -9,7 +9,7 @@ root.title('EC-LOG')
 
 # ----------- Imagen ico a mostrar en Windows ----------
 
-# root.iconbitmap('Imagenes/Logo.jpeg')
+# root.iconbitmap('Imagenes/eclog2.ico')
 
 # ----------- Menu principal ------------
 
@@ -64,7 +64,7 @@ comentarios_cliente = StringVar()
 
 # ---------- Entrada de Datos -------------
 
-id_label = Label(main_frame, text='ID', bg='#333333', fg='#DCDCDC')
+id_label = Label(main_frame, text='ID Cliente', bg='#333333', fg='#DCDCDC')
 id_label.grid(row=1, column=1, padx=10, pady=10, sticky='w')
 
 id_entry = Entry(main_frame, textvariable=id_cliente)
@@ -109,7 +109,7 @@ password_entry.config(justify='center', show='*')
 comentarios_label = Label(main_frame, text='Comentarios', bg='#333333', fg='#DCDCDC')
 comentarios_label.grid(row=7, column=1, padx=10, pady=10, sticky='w')
 
-comentarios_texto = Text(main_frame, width=18, height=5)
+comentarios_texto = Text(main_frame, width=16, height=5)
 comentarios_texto.grid(row=7, column=2, padx=20, pady=10)
 
 # --------- Frame contenedor botones -----------
@@ -119,16 +119,16 @@ frame_botones.pack()
 
 # --------- Botones inferiores ------------
 
-crear_registro = Button(frame_botones, text='Crear', bg='#333333', highlightthickness=0, fg='#85C1E9')
+crear_registro = Button(frame_botones, text='Crear', bg='#333333', highlightthickness=0, fg='#85C1E9', padx=8, pady=2)
 crear_registro.grid(row=1, column=1, padx=2)
 
-mostar_registro = Button(frame_botones, text='Mostrar', bg='#333333', highlightthickness=0, fg='#85C1E9')
+mostar_registro = Button(frame_botones, text='Mostrar', bg='#333333', highlightthickness=0, fg='#85C1E9', padx=8, pady=2)
 mostar_registro.grid(row=1, column=2, padx=2)
 
-borrar_registro = Button(frame_botones, text='Borrar', bg='#333333', highlightthickness=0, fg='#F7441D')
+borrar_registro = Button(frame_botones, text='Borrar', bg='#333333', highlightthickness=0, fg='#F7441D', padx=8, pady=2)
 borrar_registro.grid(row=1, column=3, padx=2)
 
-update_BBDD = Button(frame_botones, text='Update', bg='#333333', highlightthickness=0, fg='#2AEE4D')
+update_BBDD = Button(frame_botones, text='Update', bg='#333333', highlightthickness=0, fg='#2AEE4D', padx=8, pady=2)
 update_BBDD.grid(row=1, column=4, padx=2)
 
 main_frame.mainloop()
