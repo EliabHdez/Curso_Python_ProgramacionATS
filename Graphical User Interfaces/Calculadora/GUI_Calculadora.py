@@ -6,7 +6,7 @@ from tkinter import *
 
 root = Tk()
 root.title('Calculadora')
-root.iconbitmap('Imagenes_Ico/calc.ico')
+# root.iconbitmap('Imagenes_Ico/calc.ico')
 
 # Ventana frame 1
 
