@@ -1,4 +1,6 @@
-# Expresiones Regulares o regex
+# Expresiones Regulares o regex - Pildoras Informaticas / Videos 69 y 70
+
+# Metacaracteres, clases de caracteres y algunas expresiones regulares del modulo re
 
 """ Las expresiones regualares son una secuencia de caracteres que forman un patron de busqueda
 
